@@ -1,32 +1,40 @@
 # SPT-2001_GoogleCloud_StackDriver
 
 ## [Stackdriver Debugger](https://cloud.google.com/debugger/docs/quickstart#deploy_to_app_engine)
-----------------
+
+---
+
 Start by deploying a Python 2.7 app to App Engine Standard.
 
 1. Clone the project to a local repository:
 
-```bash
-git clone https://github.com/GoogleCloudPlatform/python-docs-samples
-```
+   ```bash
+    git clone https://github.com/GoogleCloudPlatform/python-docs-samples
+   ```
 
 2. Go to the directory that contains the sample code:
-```bash
-cd python-docs-samples/appengine/standard/hello_world
-```
+
+   ```bash
+    cd python-docs-samples/appengine/standard/hello_world
+   ```
 
 3. Initialize the Google Cloud SDK with your project ID:
-```bash
-gcloud config set project [YOUR_PROJECT_ID]
-```
+
+   ```bash
+    gcloud config set project [YOUR_PROJECT_ID]
+   ```
+
 4. Deploy your application:
-```bash
-gcloud app deploy --version=v1
-```
+
+   ```bash
+    gcloud app deploy --version=v1
+   ```
+
 5. Try your app by sending it a request:
-```bash
-gcloud app browse
-```
+
+   ```bash
+    gcloud app browse
+   ```
 
 ## [Google Cloud Platform Python Samples](https://github.com/GoogleCloudPlatform/python-docs-samples)
 
@@ -45,8 +53,8 @@ corresponding folder.
 
 ## Contributing changes
 
-* See [CONTRIBUTING.md](CONTRIBUTING.md)
+- See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Licensing
 
-* See [LICENSE](LICENSE)
+- See [LICENSE](LICENSE)
